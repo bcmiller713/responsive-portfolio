@@ -1,0 +1,572 @@
+/*Begin CSS for general layout & Index.html content area*/
+
+body {
+	font-family: "arial", "helvetica neue", helvetica, sans-serif;
+	background-image: url(../images/topography.png);
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: #cccccc solid 3px;
+	width: 100%;
+	height: 116px;
+}
+
+.logo {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 39px 80px;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	margin-left: 190px;
+	font-weight: bold;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.contact-link:hover, .portfolio-link:hover, .about-link:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+.contact-link, .portfolio-link, .about-link {
+	color: #777777; 
+	float: left;
+	font-size: 18px;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.portfolio-link {
+	border-right: #777777 solid 1px;
+}
+	
+.about-link {
+	margin-left: 310px;
+	border-right: #777777 solid 1px;
+}
+
+section {
+	clear: both;
+	float: left;
+	background-color: #ffffff;
+	margin: 50px 40px 50px 190px;
+	width: 580px;
+	padding: 35px;
+	border: solid #dddddd 1px;
+}
+
+.page-heading {
+	font-size: 24px;
+	color: #4aaaa5;
+	font-weight: bold;
+	padding-bottom: 25px;
+	clear: both;
+}
+
+#profile-picture {
+	height: 210px;
+	width: auto;
+	padding-top: 20px;
+	float: left;
+}
+
+/* text to the right of the profile picture */
+.text-content-1 {
+	color: #777777;
+	padding-top: 20px;
+	padding-left: 40px;
+	max-width: 300px;
+	float: left;
+}
+
+/* text below the profile picture */
+.text-content-2 {
+	color: #777777;
+	clear: both;
+}
+
+aside {
+	float: left;
+	margin-top: 50px;
+	width: 220px;
+	background-color: #ffffff;
+	padding: 25px;
+	border: solid 1px #dddddd;
+}
+
+.connect-heading {
+	font-size: 20px;
+	color: #4aaaa5;
+	padding-bottom: 15px;
+	font-weight: bold;	
+}
+
+.github-icon {
+	width: 60px;
+	height: auto;
+}
+
+.linkedin-icon {
+	width: 60px;
+	height: auto;
+	padding:15px 15px 0px 15px;
+}
+
+.stack-icon {
+	width: 60px;
+	height: auto;
+}
+
+footer {
+	clear:both;
+	background-color: #666666;
+	color: #ffffff;
+	border-top: solid #4aaaa5 5px;
+	padding: 58px 0px;
+	text-align: center;
+}
+
+/*Begin CSS for Portfolio.html content area*/
+
+div {
+	position: relative;
+}
+
+.project-1 {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.project-1-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	margin-right: 20px;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 200px;
+}
+
+.project-2 {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.project-2-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	float: left;
+	position: absolute;
+	right: 30px;
+	top: 200px;
+}
+
+.project-3 {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.project-3-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	margin-right: 20px;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 468px;
+}
+
+.project-4 {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.project-4-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	float: left;
+	position: absolute;
+	right: 30px;
+	top: 468px;
+}
+
+.project-5 {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.project-5-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	margin-right: 20px;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 735px;
+}
+
+.project-6 {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.project-6-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	float: left;
+	position: absolute;
+	right: 30px;
+	top: 735px;
+}
+
+/*Begin CSS for Contact.html content area*/
+
+form {
+	color: #777777;
+	font-weight: bold;
+}
+
+#name {
+	height: 25px;
+	width: 575px;
+	margin-top: 10px;
+	color: #777777;
+}
+
+#email {
+	height: 25px;
+	width: 575px;
+	margin-top: 10px;
+	color: #777777;
+}
+
+#message {
+	padding-bottom: 300px;
+	width: 575px;
+	margin-top: 10px;
+	color: #777777;
+}
+
+#submit-button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	width: 100px;
+	height: 50px;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 980px) {
+
+/*begin queries for general layout & index.html content area*/
+	.about-link {
+		margin-left: 110px;
+	}
+	
+	.logo {
+		margin-left: 100px;
+	}
+
+	section {
+		margin: 50px 40px 50px 100px;
+		width: 400px;
+	}
+
+	.text-content-1 {
+		padding-left: 0px;
+		max-width: 500px;
+	}
+
+	aside {
+		width: 220px;
+	}
+
+/*begin queries for portfolio.html content area*/
+	.project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
+		width: 350px;
+		height: 350px;
+	}
+
+	.project-1-title {
+		padding: 20px;
+		width: 310px;
+		top: 250px;
+	}
+
+	.project-2-title {
+		padding: 20px;
+		width: 310px;
+		left: 0px;
+		top: 650px;
+	}
+
+	.project-3-title {
+		padding: 20px;
+		width: 310px;
+		top: 1015px;
+	}
+
+	.project-4-title {
+		padding: 20px;
+		width: 310px;
+		left: 0px;
+		top: 1420px;
+	}
+
+	.project-5-title {
+		padding: 20px;
+		width: 310px;
+		top: 1785px;
+	}
+
+	.project-6-title {
+		padding: 20px;
+		width: 310px;
+		left: 0px;
+		top: 2185px;
+	}
+
+/*begin queries for contact.html content area*/
+	#name {
+		width: 397px;
+	}
+
+	#email {
+		width: 397px;
+	}
+
+	#message {
+		width: 397px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+/*begin queries for general layout & index.html content area*/	
+	.about-link {
+		margin-left: 100px;
+	}
+
+	.logo {
+		margin-left: 25px;
+		padding: 39px 50px;
+	}
+
+	section {
+		margin: 50px 0px 50px 20px;
+		width: 640px;
+	}
+
+	.text-content-1 {
+		max-width: 400px;
+		padding-left: 25px;
+	}
+
+	aside {
+		width: 640px;
+		margin: 0px 0px 50px 20px;
+		padding: 25px 35px;
+	}
+
+/*begin queries for portfolio.html content area*/
+	.project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
+		width: 295px;
+		height: 295px;
+	}
+
+	.project-1-title {
+		width: 255px;
+		top: 210px;
+	}
+
+	.project-2-title {
+		width: 255px;
+		left: 345px;
+		top: 210px;
+	}
+
+	.project-3-title {
+		width: 255px;
+		top: 520px;
+	}
+
+	.project-4-title {
+		width: 255px;
+		left: 345px;
+		top: 520px;
+	}
+
+	.project-5-title {
+		width: 255px;
+		top: 830px;
+	}
+
+	.project-6-title {
+		width: 255px;
+		left: 345px;
+		top: 830px;
+	}
+
+/*begin queries for contact.html content area*/
+	#name {
+		width: 637px;
+	}
+
+	#email {
+		width: 637px;
+	}
+
+	#message {
+		width: 637px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+/*begin queries for general layout & index.html content area*/	
+	header {
+		height: 200px;
+	}
+
+	.logo {
+		margin-left: 0px;
+		padding: 39px 50px;
+		width: 522px;
+	}
+
+	.contact-link, .portfolio-link, .about-link {
+		margin-top: 14px;
+		width: 194px;
+		text-align: center;
+		padding: 20px 0px;
+	}
+
+	.about-link {
+		clear: both;
+		margin-left: 18px;
+	}
+
+	.contact-link {
+		margin-right: 18px;
+	}
+
+	#profile-picture {
+		height: 400px;
+		margin-left: 55px;
+	}
+
+	section {
+		margin: 50px 0px 50px 20px;
+		padding: 35px;
+		width: 510px;
+	}
+
+	.text-content-1 {
+		max-width: 600px;
+		padding-left: 0px;
+	}
+
+	aside {
+		width: 510px;
+	}
+
+/*begin queries for portfolio.html content area*/
+	.project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
+		width: 508px;
+		height: 400px;
+	}
+
+	.project-1-title {
+		padding: 20px;
+		width: 468px;
+		top: 300px;
+	}
+
+	.project-2-title {
+		padding: 20px;
+		width: 468px;
+		left: 0px;
+		top: 750px;
+	}
+
+	.project-3-title {
+		padding: 20px;
+		width: 468px;
+		top: 1165px;
+	}
+
+	.project-4-title {
+		padding: 20px;
+		width: 468px;
+		left: 0px;
+		top: 1615px;
+	}
+
+	.project-5-title {
+		padding: 20px;
+		width: 468px;
+		top: 2030px;
+	}
+
+	.project-6-title {
+		padding: 20px;
+		width: 468px;
+		left: 0px;
+		top: 2480px;
+	}
+
+/*begin queries for contact.html content area*/
+	#name {
+		width: 507px;
+	}
+
+	#email {
+		width: 507px;
+	}
+
+	#message {
+		width: 507px;
+	}
+
+}
